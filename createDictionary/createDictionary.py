@@ -4,6 +4,7 @@ def extractWords(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
         #Tokenize words and remove punctuation allowing characters '!' and '*'
+        # change back to 'words = re.findall(r'\b\w+\b', content.lower())' for no special characters
         words = re.findall(r'\b[\w!*]+\b', content.lower())
         return set(words)
     #Save to dictionary.txt
