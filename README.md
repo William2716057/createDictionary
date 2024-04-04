@@ -22,10 +22,10 @@ cd dictionary-creator
 
 3. Run the script:
 
-python dictionary_creator.py
+python createDictionary.py
 
 ## Usage
 
-1. Run the script by executing the `dictionary_creator.py` file.
+1. Run the script by executing the `createDictionary.py` file.
 2. Enter the path to the file from which you want to extract words when prompted.
 3. Once the script finishes execution, the dictionary will be created as 'dictionary.txt' in the project directory.
